@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.e3c2b9f2.css",
-    "main.js": "/My-portfolio/static/js/main.5770e756.js",
+    "main.js": "/My-portfolio/static/js/main.e671d3ef.js",
     "static/media/bvg.jpg": "/My-portfolio/static/media/bvg.55bd472567b1bbe1c5e2.jpg",
-    "static/media/CV.pdf": "/My-portfolio/static/media/CV.730324c83e1c0c4f2ebb.pdf",
     "static/media/portfolio5.png": "/My-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/abd.jpeg": "/My-portfolio/static/media/abd.42e9f7200291c2abbb9b.jpeg",
     "static/media/portfolio2.jpg": "/My-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/My-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/portfolio1.jpg": "/My-portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/My-portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/My-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/abd.jpeg": "/My-portfolio/static/media/abd.c21ccc3441cd0722d0e8.jpeg",
     "index.html": "/My-portfolio/index.html",
     "main.e3c2b9f2.css.map": "/My-portfolio/static/css/main.e3c2b9f2.css.map",
-    "main.5770e756.js.map": "/My-portfolio/static/js/main.5770e756.js.map"
+    "main.e671d3ef.js.map": "/My-portfolio/static/js/main.e671d3ef.js.map"
   },
   "entrypoints": [
     "static/css/main.e3c2b9f2.css",
-    "static/js/main.5770e756.js"
+    "static/js/main.e671d3ef.js"
   ]
 }
