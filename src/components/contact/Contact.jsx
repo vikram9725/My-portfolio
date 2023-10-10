@@ -12,15 +12,26 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_423vpeh', 'template_0504dyv', form.current, '6O3Ed8z-ST0IXxIK4')
-    e.target.reset()
-    
+    emailjs.sendForm('service_y369ofj', 'template_bbxgqmu', form.current, 'wH5QuenNRkbb6DqXo')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+        // Reset the form after the email is successfully sent
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
       });
   };
+
+
+  function navigateToWhatsApp() {
+    var phoneNumber = '8446739782';
+    var message = 'Hello, how can I help you?';
+    
+    var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(phoneNumber) + '&text=' + encodeURIComponent(message);
+    
+    window.open(whatsappUrl, '_blank');
+  }
   return (
     <section id="contact">
       <h5 className="text-light">&lt; /Get In Touch &gt;</h5>
@@ -37,14 +48,15 @@ const Contact = () => {
         <article className="contact__option">
           <BsLinkedin className='contact__option-icon'/>
         <h4>LinkedIn</h4>
-        {/*<h5>kartik97gaikwad@gmail.com</h5>*/}
-        <a href='https://www.linkedin.com' target="_blank" rel='noreferrer'>Send a messsage</a>
+        {/* <h5>kartik97gaikwad@gmail.com</h5> */}
+        <a href='https://www.linkedin.com/in/vikram-bhosale-a14385266/' target="_blank" rel='noreferrer'>Send a messsage</a>
         </article>
         <article className="contact__option">
           <BsWhatsapp className='contact__option-icon'/>
         <h4>WhatsApp</h4>
-        <h5>+91-8668288735</h5>
-        <a href='https://api.whatsapp.com' target="_blank" rel='noreferrer'>Send a messsage</a>
+        <h5>+91-8446739782</h5>
+        <a href='#' onClick={navigateToWhatsApp} target="_blank" rel='noreferrer'>Send a messsage</a>
+        
         </article>
         </div>
 
